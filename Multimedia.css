@@ -213,7 +213,7 @@ iframe[AttributesStyle] {
     border-bottom-width: 100px;
     border-left-width: 80px;
     position:relative
-    margine;grid-auto-rows: a
+    margine grid-auto-rows: a;
     
 }
 
@@ -225,8 +225,6 @@ iframe {
     border-image: initial;
 }
 
-.Conseptos basicos SI {
-    align-content: center;
 
 
 
