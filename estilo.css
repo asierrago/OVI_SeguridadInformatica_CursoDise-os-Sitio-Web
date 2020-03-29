@@ -198,3 +198,22 @@ li:hover{
     
 }
 
+.texto {
+    width: inherit;
+    color: black;
+    font-size: 25px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
+.foto {
+    width: 350px;
+    height: auto;
+}
+
+figure img {
+    width: 280px;
+    height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
