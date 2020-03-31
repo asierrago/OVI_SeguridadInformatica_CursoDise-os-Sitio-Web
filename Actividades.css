@@ -1,0 +1,236 @@
+
+#contenidos{
+    width: 1300px;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+    
+/*etiquetas*/
+   
+body {
+    background-color: #c2c2be;
+}
+h1{
+    margin-top: 35px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 60px;
+    text-align: right;
+    margin-right: 145px;
+    color: rgb(12, 11, 11);
+    margin-bottom: 0px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+h2{
+    margin-left: 320px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(10, 9, 9);
+    margin-top: 10px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+h3{
+    margin-top: -65px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(104, 75, 8);
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+h4{
+    margin-top: 5px;
+    padding: 0px;
+    text-align: center;
+    font-size: 15px;
+    color: #f1efef;
+    margin-bottom: 5px;
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+h5{
+    
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    color: #ecf1f1;
+    margin-bottom: 5px;
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+header{
+    background-image: url("https://i.ibb.co/16Ckm9F/logo-vertical.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 200px 145px;
+    width: 1250px;
+    height: 145px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+nav{
+    text-align: center;
+    width: 1300px;
+    height: 50px;
+    background-color: rgb(112, 80, 6);
+    border-radius: 5px;
+    border-bottom-right-radius: 0; 
+    margin-bottom: 0px;
+    display: block;
+}
+ul{
+    
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}    
+ 
+ li{ 
+    float: left;
+    list-style-type: none;
+    background-color: rgb(112, 80, 6);
+    /*border-radius: 5px;
+    box-shadow: 0 0 5px black inset;*/
+    width: inherit;
+    height: 35px;
+    font-size: 25px;
+    color: white;
+    margin-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    }
+
+
+ 
+li ul{
+       position: inherit;
+       display: none;
+       width: 230px;
+
+    }
+    
+    li ul a{
+        font-size: 20px;
+    }
+li:hover ul{
+        display: block;
+        
+    }
+
+section{
+    
+    width: 130020px;
+    /*background-color: white;*/
+    height: auto;
+    z-index: -1;
+    float: left;
+}
+article{
+    width: 700px;
+    float: left;
+}
+aside{
+    /*background-color: blue;*/
+    width: 280px;
+    float: left;
+    margin-left: 20px;
+    height: 490px;
+    padding-left: 19px;
+    
+    /*margin-left: 20px;*/
+}
+
+hr{
+    z-index: -1;
+    background-color: #0b0c0c;
+    border-color: rgb(112, 80, 6);
+    left: 714px;
+    width:4px;
+    height: 420px;
+    top: 290px;
+    position: absolute;
+    margin: 0;
+}
+p{
+    color: black;
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 100px;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+
+footer{
+    position: absolute;
+    height: 70px;
+    background-color: rgb(112, 80, 6);
+    width: 1300px;
+    clear: both;
+    top: 710px;
+}
+footer img{
+    margin: 0px;
+    height: 15px;
+    width: auto;
+    
+}
+/*clases*/
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+/*color de el texto en el menu desplegable*/
+/*----------------------------------------*/
+.menu:link{color: white; text-decoration:none}
+.menu:visited{color: white; text-decoration:none}    
+.menu:hover{ color: #0b0c0c;text-decoration:none}
+.menu:active{color: white; text-decoration:none}
+.menu:focus{color: white; text-decoration:none}
+
+/*seudo clases*/
+
+li:hover{
+    background-color: rgb(112, 80, 6);
+    z-index: 1
+    
+}
+
+
+iframe {
+    align-content:center;
+}
+
+
+
+iframe[AttributesStyle] {
+    width: 500px;
+    height:px;
+    border-top-width: 10px;
+    border-right-width: 100px;
+    border-bottom-width: 100px;
+    border-left-width: 80px;
+    position:relative
+    margine grid-auto-rows: a;
+    
+}
+
+
+iframe {
+    border-width: 10px;
+    border-style: inset;
+    border-color: rgb(122, 80, 6);
+    border-image: initial;
+}
+
+
+
+
+nav ul li ul li {
+    float: none;
+    position: relative;
+}
+
+

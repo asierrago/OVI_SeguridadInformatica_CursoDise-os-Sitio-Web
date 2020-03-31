@@ -217,8 +217,3 @@ figure img {
   margin-left: auto;
   margin-right: auto;
 }
-
-nav ul li ul li {
-    float: none;
-    position: relative;
-}
